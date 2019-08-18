@@ -1,2 +1,2 @@
 # Testes_Software
-Repositório para as atividades realizadas na aula de Testes de Software ministradas pelo Professor Fabrício na Fatec SJC
+Repositório para as atividades realizadas na aula de Testes de Software/Lab. de Desenv. em Banco de Dados VI ministradas pelo Professor Fabrício na Fatec SJC
