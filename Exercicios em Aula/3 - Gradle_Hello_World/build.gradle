@@ -1,0 +1,15 @@
+plugins{
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'HelloWorld'
+
+// Definindo o diretório source do java
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
