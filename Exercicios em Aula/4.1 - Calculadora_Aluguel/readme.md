@@ -1,4 +1,4 @@
-# Calculadora com Testes Utilizando Gradle
+# Calculadora de Aluguel com Testes Utilizando Gradle
 
 O projeto foi gerado utilizando o comando de criação padrão do gradle para se ter toda a estrutura de arquivos em modo default.
 
