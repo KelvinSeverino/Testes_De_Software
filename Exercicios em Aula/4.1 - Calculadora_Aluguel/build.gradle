@@ -15,6 +15,17 @@ plugins
     id 'application'
 }
 
+/*mainClassName = 'App'
+
+// Definindo o diretório source do java
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}*/
+
 dependencies 
 {
     testCompileOnly 'org.junit.jupiter:junit-jupiter-api:5.3.1'

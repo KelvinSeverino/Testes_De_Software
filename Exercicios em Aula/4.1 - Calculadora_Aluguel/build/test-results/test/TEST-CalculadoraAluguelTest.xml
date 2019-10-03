@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculadoraAluguelTest" tests="15" skipped="0" failures="3" errors="0" timestamp="2019-09-21T10:54:08" hostname="AOXE_Win7Pro" time="0.438">
+<testsuite name="CalculadoraAluguelTest" tests="15" skipped="0" failures="3" errors="0" timestamp="2019-09-26T21:55:41" hostname="AOXE_Win7Pro" time="0.405">
   <properties/>
-  <testcase name="dia0()" classname="CalculadoraAluguelTest" time="0.04"/>
-  <testcase name="dia1()" classname="CalculadoraAluguelTest" time="0.004"/>
+  <testcase name="dia0()" classname="CalculadoraAluguelTest" time="0.096"/>
+  <testcase name="dia1()" classname="CalculadoraAluguelTest" time="0.005"/>
   <testcase name="dia2()" classname="CalculadoraAluguelTest" time="0.008"/>
   <testcase name="dia4()" classname="CalculadoraAluguelTest" time="0.002"/>
-  <testcase name="dia5()" classname="CalculadoraAluguelTest" time="0.002"/>
-  <testcase name="dia6()" classname="CalculadoraAluguelTest" time="0.019">
+  <testcase name="dia5()" classname="CalculadoraAluguelTest" time="0.001"/>
+  <testcase name="dia6()" classname="CalculadoraAluguelTest" time="0.146">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;475.0&gt; but was: &lt;475.02&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;475.0&gt; but was: &lt;475.02&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:88)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
-	at CalculadoraAluguelTest.dia6(CalculadoraAluguelTest.java:52)
+	at CalculadoraAluguelTest.dia6(CalculadoraAluguelTest.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,16 +80,16 @@
   </testcase>
   <testcase name="dia9()" classname="CalculadoraAluguelTest" time="0.002"/>
   <testcase name="dia10()" classname="CalculadoraAluguelTest" time="0.003"/>
-  <testcase name="dia11()" classname="CalculadoraAluguelTest" time="0.001"/>
+  <testcase name="dia11()" classname="CalculadoraAluguelTest" time="0.0"/>
   <testcase name="dia14()" classname="CalculadoraAluguelTest" time="0.001"/>
-  <testcase name="dia15()" classname="CalculadoraAluguelTest" time="0.024">
+  <testcase name="dia15()" classname="CalculadoraAluguelTest" time="0.062">
     <failure message="org.opentest4j.AssertionFailedError: expected: &lt;500.0&gt; but was: &lt;510.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;500.0&gt; but was: &lt;510.0&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:88)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
-	at CalculadoraAluguelTest.dia15(CalculadoraAluguelTest.java:91)
+	at CalculadoraAluguelTest.dia15(CalculadoraAluguelTest.java:94)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -154,16 +154,16 @@
 	at java.lang.Thread.run(Thread.java:748)
 </failure>
   </testcase>
-  <testcase name="dia16()" classname="CalculadoraAluguelTest" time="0.003"/>
+  <testcase name="dia16()" classname="CalculadoraAluguelTest" time="0.004"/>
   <testcase name="dia30()" classname="CalculadoraAluguelTest" time="0.001"/>
-  <testcase name="dia31()" classname="CalculadoraAluguelTest" time="0.28">
-    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;510.25&gt; but was: &lt;-1.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;510.25&gt; but was: &lt;-1.0&gt;
+  <testcase name="dia31()" classname="CalculadoraAluguelTest" time="0.017">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;514.0&gt; but was: &lt;-1.0&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;514.0&gt; but was: &lt;-1.0&gt;
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:88)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:83)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:479)
-	at CalculadoraAluguelTest.dia31(CalculadoraAluguelTest.java:113)
+	at CalculadoraAluguelTest.dia31(CalculadoraAluguelTest.java:123)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

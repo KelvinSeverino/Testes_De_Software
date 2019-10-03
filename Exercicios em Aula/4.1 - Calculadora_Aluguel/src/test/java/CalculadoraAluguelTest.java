@@ -14,6 +14,7 @@ public class CalculadoraAluguelTest
     @Test
     public void dia0()
     {
+        //Dia 0 Retorna Invalido: -1.0
         assertEquals(-1, aluguel.calcAluguel(0), 0.01);
     }
 
@@ -49,6 +50,7 @@ public class CalculadoraAluguelTest
     @Test
     public void dia6()
     {
+        //Dia 6 Retorna BUG: 475.02
         assertEquals(475, aluguel.calcAluguel(6), 0.01);
     }
 
@@ -88,13 +90,20 @@ public class CalculadoraAluguelTest
     @Test
     public void dia15()
     {
+        //Dia 15 Retorna BUG: 510.0
         assertEquals(500, aluguel.calcAluguel(15), 0.01);
     }
 
-    // Após 15º Dia haverá Multa de 2% mais juros de 1% ao mês 
+    /* Após 15º Dia haverá Valor Nominal: R$500,00 +
+        Multa: (2% + 1,5 ao mês) + (0,05% ao dia)
+        -------------------------------------------
+        Multa de 2% = 10
+        Multa de 1,5% ao mês = 7,5 = (Multa de 0,05% ao dia = 0,25)
+        Correto: 510.25
+    */
     @Test
     public void dia16()
-    {
+    {        
         assertEquals(510.25, aluguel.calcAluguel(16), 0.01);
     }
 
@@ -110,7 +119,8 @@ public class CalculadoraAluguelTest
     @Test
     public void dia31()
     {
-        assertEquals(510.25, aluguel.calcAluguel(31), 0.01);
+        //Dia 31 Retorna BUG: 513,75
+        assertEquals(514, aluguel.calcAluguel(31), 0.01);
     }
 
     @Test
