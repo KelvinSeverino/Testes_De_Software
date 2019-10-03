@@ -1,0 +1,35 @@
+import model.CalculadorAluguel;
+
+public class App 
+{
+  public static void main(String args[])  
+  {
+    CalculadorAluguel aluguel = new CalculadorAluguel(500);
+
+    //Dia 0 é invalido, pois só existe a partir do dia 1
+    System.out.println("Dia 0 - Invalido: "+aluguel.calcAluguel(0));
+
+    //Dia 5 OK
+    System.out.println("Dia 5: "+aluguel.calcAluguel(5));
+
+    //Dia 6 está com bug
+    System.out.println("Dia 6 - BUG: "+aluguel.calcAluguel(6));
+
+    //Dia 15 está com bug
+    System.out.println("Dia 15 - BUG: "+aluguel.calcAluguel(15));
+
+    //Dia 16 OK
+    System.out.println("Dia 16: "+aluguel.calcAluguel(16));
+
+    System.out.println("Dia 17: "+aluguel.calcAluguel(17));
+
+    //Dia 30 OK
+    System.out.println("Dia 30: "+aluguel.calcAluguel(30));
+
+    //Dia 31 está com Bug
+    System.out.println("Dia 31 - BUG: "+aluguel.calcAluguel(31));
+
+    //Dia 32 invalido, pois o mes tem 31 dias somente
+    System.out.println("Dia 32 - Invalido: "+aluguel.calcAluguel(32));
+  }
+}
