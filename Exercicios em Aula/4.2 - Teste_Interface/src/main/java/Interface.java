@@ -39,8 +39,8 @@ public class Interface extends JFrame
 		setContentPane(jtPanel);
 		jtPanel.setLayout(null);		
 		
-		jbAnalisa = new JButton("Analisar String");
-		jbLimpar = new JButton("Limpar Campos");		
+		jbAnalisa = new JButton("Analisar");
+		jbLimpar = new JButton("Limpar");		
 		
 		//Posicao na Tela
 		jtPanel.setSize(480,480);
@@ -72,8 +72,7 @@ public class Interface extends JFrame
 			@Override
 			public void actionPerformed(ActionEvent arg0)
 			{               
-				jtfResultado.setText("" + AnalisadorSequencia.analisar(jtfEntrada.getText()));
-                
+				jtfResultado.setText("" + AnalisadorSequencia.analisar(jtfEntrada.getText()));                
 			}			
 		});		
 
