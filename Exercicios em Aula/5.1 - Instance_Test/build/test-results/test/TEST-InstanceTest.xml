@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InstanceTest" tests="6" skipped="1" failures="0" errors="0" timestamp="2019-10-19T01:02:59" hostname="AOXE_Win7Pro" time="0.529">
+  <properties/>
+  <testcase name="testCase01()" classname="InstanceTest" time="0.061"/>
+  <testcase name="testCase02()" classname="InstanceTest" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase name="testCase03(int)[1]" classname="InstanceTest" time="0.139"/>
+  <testcase name="testCase03(int)[2]" classname="InstanceTest" time="0.002"/>
+  <testcase name="testCase03(int)[3]" classname="InstanceTest" time="0.002"/>
+  <testcase name="testCase03(int)[4]" classname="InstanceTest" time="0.011"/>
+  <system-out><![CDATA[0.4804757528602065
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
