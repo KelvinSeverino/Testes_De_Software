@@ -1,0 +1,36 @@
+//gradle build
+//gradle appRun
+//link para acesso http://localhost:8083/7.1%20-%20Servlet_Basic/httpservlet?nome=kelvin
+
+plugins {
+    id 'java'
+    id 'war'
+    id 'org.gretty' version '2.2.0'    
+}
+
+dependencies {
+    compile 'javax.servlet:javax.servlet-api:3.1.0'
+    testCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    //Mockito framework
+    testCompile "org.mockito:mockito-core:2.+"
+    
+    //JUnit 5 framework
+    testCompileOnly 'org.junit.jupiter:junit-jupiter-api:5.3.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'  
+}
+
+
+repositories {
+   
+    jcenter()
+}
+
+/* configuração do gretty pra usar tomcat*/
+gretty {
+  servletContainer = 'tomcat8'
+  httpPort = 8083
+}
+
+test{
+    useJUnitPlatform()
+}
